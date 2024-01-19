@@ -15,7 +15,12 @@ async function startProgram() {
 */
 
 //Squar w/ diffrent cplors for each line
-
+async function startProgram() {
+	setMainLed({ r: 0, g: 0, b: 255})
+	setSpeed(100);
+	await delay(10);
+	setSpeed(0);
+}
 
 
 
