@@ -20,6 +20,19 @@ async function startProgram() {
 	await delay(2.50)
 	stopRoll()
 	await Sound.EightBit.Error.play(true)
-	
+	setHeading(180)
+	setSpeed(33)
+	await delay(3.20)
+	stopRoll()
+	setHeading(220)
+	setSpeed(20)
+	await delay(4)
+	stopRoll()
+	setMainLed({ r: 255, g: 0, b: 0})
+	setHeading(140)
+	setSpeed(30)
+	await delay(1.77)
+	stopRoll()
+		   
 			   
 }
